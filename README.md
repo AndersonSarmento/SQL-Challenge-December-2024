@@ -1,9 +1,8 @@
-# SQL-Challenge-December-2024
-
 # 🌟 **SQL-Challenge-December-2024** 🌟  
 
-Bem-vindo ao meu repositório do **SQL Advent Calendar**, um desafio gratuito de 24 dias que acontece em dezembro! 🎄  
-Neste repositório, compartilho minhas queries e soluções para cada dia do desafio.  
+Quer aprimorar suas habilidades em SQL? Explore minhas soluções para os desafios do SQL Advent Calendar.
+Todos os dias, um novo desafio e uma nova oportunidade de aprender.
+#SQLAdventCalendar #coding"
 
 ## 📋 **Sobre o Desafio**  
 O **SQL Advent Calendar** é uma oportunidade incrível para aprimorar minhas habilidades em SQL.  
@@ -14,3 +13,17 @@ O **SQL Advent Calendar** é uma oportunidade incrível para aprimorar minhas ha
 
 Saiba mais e participe em: [www.sqlcalendar.com](http://www.sqlcalendar.com)
 -----------------------------------------------------------------------------------
+
+Want to improve your SQL skills? Explore my solutions to SQL Advent Calendar challenges.
+Every day, a new challenge and a new opportunity to learn.
+#SQLAdventCalendar #coding"
+
+## 📋 **About the Challenge**  
+The **SQL Advent Calendar** is an incredible opportunity to improve my SQL skills.  
+- 🔍 **Period:** December 1st to 24th.  
+- 💡 **Daily Challenge:** One new SQL question per day.  
+- 📈 **Levels:** Questions range from beginner to advanced.  
+- 🎁 **Objective:** Learn, practice and share knowledge!  
+
+Find out more and participate at: [www.sqlcalendar.com](http://www.sqlcalendar.com)
+-------------------------------------------------- ---------------------------------
