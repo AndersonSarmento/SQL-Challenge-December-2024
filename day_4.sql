@@ -22,11 +22,15 @@ Question level of difficulty: Medium
 ---------------------------------------------------------------------------------------
 Challenge answer
 
-select region, avg(snowfall_inches) as average_snowfall
-from ski_resorts as A 
-inner join snowfall as B
-on a.resort_id = b.resort_id
-group by region
-order by average_snowfall desc
+SELECT
+    region,
+    AVG(snowfall_inches) AS average_snowfall
+FROM
+    ski_resorts AS A
+INNER JOIN snowfall AS B ON A.resort_id = B.resort_id
+GROUP BY
+    region
+ORDER BY
+    average_snowfall DESC;
 
 

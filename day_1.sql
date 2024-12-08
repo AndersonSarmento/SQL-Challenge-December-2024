@@ -17,12 +17,17 @@ Table name: rentals
 Question level of difficulty: Medium  
 
 ---------------------------------------------------------------------------------------
-
 Challenge answer
 
-SELECT customer_name, COUNT(DISTINCT activity) AS Number_Equipment
-FROM rentals
-GROUP BY customer_name 
-HAVING COUNT(DISTINCT activity) > 1
-ORDER BY Number_Equipment DESC
+SELECT 
+    customer_name,
+    COUNT(DISTINCT activity) AS Number_Equipment
+FROM 
+    rentals
+GROUP BY 
+    customer_name 
+HAVING
+    COUNT(DISTINCT activity) > 1
+ORDER BY
+    Number_Equipment DESC
 

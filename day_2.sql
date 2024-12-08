@@ -15,9 +15,12 @@ Question  level of difficulty: Easy
 ---------------------------------------------------------------------------------------
 Challenge answer
 
-select gift_name
-from gifts
-where weight_kg > 1.0
+SELECT
+    gift_name
+FROM
+    gifts
+WHERE
+    weight_kg > 1.0
 
 
 

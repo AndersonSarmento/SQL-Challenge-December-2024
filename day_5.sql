@@ -13,7 +13,11 @@ Brighton Beach	New Zealand	25	2024-12-25
 ----------------------------------------------------------------------------------------
 Challenge answer
 
-select beach_name
-from beach_temperature_predictions
-where expected_temperature_c > 30 and  date= '2024-12-25'
+SELECT
+    beach_name
+FROM
+    beach_temperature_predictions
+WHERE
+    expected_temperature_c > 30
+    AND date = '2024-12-25';
 
