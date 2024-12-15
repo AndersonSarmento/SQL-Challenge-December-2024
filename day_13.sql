@@ -13,4 +13,12 @@ gift_id	gift_name	recipient	weight_kg
 Question level of difficulty:
 Medium
 GrinchGrinchGray Grinch
+----------------------------------------------------------------
+SELECT
+    recipient,
+    SUM(weight_kg) as 'total_weight '
+FROM
+    gifts
+GROUP BY
+    recipient
 
