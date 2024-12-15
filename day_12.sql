@@ -29,3 +29,15 @@ Question level of difficulty:
 Hard
 GrinchGrinchGrinch
 -------------------------------------------------------------------------------
+SELECT
+    A.globe_name,
+    count(B.figurine_id) as 'number_of_figurines',
+    A.material
+   FROM
+    snow_globes as A
+INNER JOIN
+    figurines as B ON A.globe_id = B.globe_id
+GROUP BY
+    A.globe_name
+ORDER BY number_of_figurines desc
+limit 3
