@@ -15,3 +15,8 @@ sale_id	candy_name	quantity_sold	price_per_unit	category
 Question level of difficulty:
 Medium
 GrinchGrinchGray Grinch
+==========================================================
+select  category,sum(quantity_sold*price_per_unit) as 'total_revenue'
+FROM candy_sales
+group by category 
+order by category desc
