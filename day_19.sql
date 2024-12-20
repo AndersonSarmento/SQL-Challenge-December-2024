@@ -21,6 +21,7 @@ log_id	bear_id	food_type	food_weight_kg	date
 Question level of difficulty:
 Medium
 GrinchGrinchGray Grinch
+
 ============================================================================================
 SELECT
     a.bear_name,
