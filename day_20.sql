@@ -21,3 +21,12 @@ Question level of difficulty:
 Easy
 GrinchGray GrinchGray Grinch
 ------------------------------------------------------------------------------------------------------------------
+
+select distinct 
+    A.vendor_name
+FROM
+    vendors AS A
+INNER JOIN 
+    item_prices AS b ON b.vendor_id = a.vendor_id
+WHERE 
+    B.price_usd < 10
