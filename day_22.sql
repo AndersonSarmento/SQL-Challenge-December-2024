@@ -22,3 +22,8 @@ Medium
 GrinchGrinchGray Grinch
 ---------------------------------------------------------------------------------------
 Challenge answer
+
+SELECT *
+FROM guests as a 
+    LEFT JOIN guest_gifts as b ON a.guest_id = b.guest_id
+WHERE b.guest_id IS NULL
