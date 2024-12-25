@@ -15,6 +15,7 @@ Question level of difficulty:
 Hard
 GrinchGrinchGrinch
 --------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
 SELECT
     delivery_date,
     SUM(gifts_delivered) OVER (ORDER BY delivery_date) AS cumulative_sum
