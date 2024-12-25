@@ -27,3 +27,5 @@ The **SQL Advent Calendar** is an incredible opportunity to improve my SQL skill
 
 Find out more and participate at: [www.sqlcalendar.com](http://www.sqlcalendar.com)
 -------------------------------------------------- ---------------------------------
+
+![python](imagen.png)
